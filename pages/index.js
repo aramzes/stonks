@@ -17,8 +17,8 @@ export default function Home({ filteredCoins }) {
 
     <Layout>
       <Head>
-            <title>title</title>
-            <link rel="icon" href="/favicon.ico" />
+            <title>Stonks</title>
+            <link rel="icon" href="https://p.kindpng.com/picc/s/754-7540432_face-chin-nose-head-cheek-skin-forehead-mannequin.png" />
       </Head>
       
       <SearchBar type="text" placeholder="Search" onChange={handleChange}/>

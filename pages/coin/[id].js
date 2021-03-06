@@ -2,6 +2,7 @@ import Layout from '../../components/Layout';
 import styles from './coin.module.css';
 
 const Coin = ({ coin }) => {
+
   return (
     <Layout>
       <div className={styles.coin_page}>
@@ -21,6 +22,7 @@ const Coin = ({ coin }) => {
     </Layout>
   );
 };
+
 
 export default Coin;
 
